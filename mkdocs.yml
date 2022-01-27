@@ -1,0 +1,12 @@
+site_name: Mapotic.com
+nav:
+    - Home: index.md
+    - API:
+        - POI: poi.md
+        - Category: category.md
+        - Attribute: attribute.md
+
+theme:
+    name: material
+    icon:
+        logo: material/earth
