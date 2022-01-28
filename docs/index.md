@@ -1,4 +1,6 @@
-Base API docs
+API docs
 ===
 
-![mapotic.com](/assets/logo.png)
+Documentation of mapotic.com API.
+
+![mapotic.com](assets/logo.png)

@@ -1,4 +1,4 @@
-site_name: Mapotic.com
+site_name: Mapotic API
 nav:
     - Home: index.md
     - API:
