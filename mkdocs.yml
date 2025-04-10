@@ -1,12 +1,27 @@
-site_name: Mapotic API
+site_name: Mapotic documentation
 nav:
     - Home: index.md
-    - API:
-        - POI: poi.md
-        - Category: category.md
-        - Attribute: attribute.md
+    - Map: map.md
+    - Geo: geo.md
+    - Category: category.md
+    - Attribute: attribute.md
 
 theme:
     name: material
-    icon:
-        logo: material/earth
+    logo: assets/logo.png
+    palette:
+        primary: green
+
+plugins:
+    - mermaid2
+
+    - info:
+        enabled: true
+
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+#  - pymdownx.superfences
